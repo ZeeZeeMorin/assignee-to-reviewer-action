@@ -1,7 +1,7 @@
 # Assign reviewers based on assignees
 
 If your team currently uses pull request assignees but would like to switch to  [Review Requests](https://blog.github.com/2016-12-07-introducing-review-requests/), having everyone change their workflows can be difficult. This GitHub Action eases the transition by automatically creating and deleting review requests based on assignees. This may be particularly helpful when using a 3rd-party app like [Pull Reminders](https://pullreminders.com) that relies on review requests.
-
+We
 ## Usage
 
 This Action subscribes to [Pull request events](https://help.github.com/en/articles/events-that-trigger-workflows#pull-request-event-pull_request) specifically the `assigned` and `unassigned` events which fire whenever users are assigned or unassigned to pull requests.
